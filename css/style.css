@@ -16,8 +16,8 @@ a, a:visited {
     --fw-bold: 900;
     
     
-    --fs-h1: 30px;
-    --fs-h2: 15px;
+    --fs-h1: max(2vw, 30px);
+    --fs-h2: max(1.5vw, 15px);
     --fs-body: 10px;
 }
 
