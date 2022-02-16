@@ -73,12 +73,6 @@ body {
     transition: background 500ms ease-in-out, color 500ms ease-in-out;
 }
 
-body, html {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-}
-
 section {
     padding: 5em 2em;
     display: flex;

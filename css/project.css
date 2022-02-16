@@ -23,16 +23,20 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 801px) {
     :root {
-        --fs-h1: 35px;
-        --fs-h2: 20px;
+        --fs-h1: 2vw;
+        --fs-h2: 1.5vw;
         --fs-body: 1rem;
     }
 
     #vid {
         width: 20vw;
         height: auto;
+    }
+
+    .space {
+        height: 30vh;
     }
 
 }
@@ -73,12 +77,6 @@ section {
 
 .scrollContainer section{
     scroll-snap-align: start;
-}
-
-body, html {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
 }
 
 .gridContainer {
