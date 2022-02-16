@@ -6,8 +6,8 @@
 }
 
 :root{
-    --fs-h1: max(2vw, 30px);
-    --fs-h2: max(1.5vw, 15px);
+    --fs-h1: 2vw;
+    --fs-h2: 1.5vw;
     --fs-body: 1rem;
 
     --ff-primary: 'Outfit', sans-serif;
@@ -25,8 +25,9 @@
 
 @media (min-width: 801px) {
     :root {
-        --fs-h1: max(2vw, 30px);
-        --fs-h2: max(1.5vw, 15px);
+        --fs-h1: 2vw;
+        --fs-h2: 1.5vw;
+        --fs-body: 1rem;
     }
 
     #vid {
