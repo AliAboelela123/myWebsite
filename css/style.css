@@ -92,10 +92,6 @@ img {
     max-width: 100%;
 }
 
-.intro {
-    max-height: 90vh;
-}
-
 /* Typography */
 
 strong { font-weight: var(--fw-bold) }
@@ -122,6 +118,7 @@ nav { display: none; }
 /*  Intro section  */
 
 .intro {
+    max-height: 90vh;
     position: relative;
 }
 
@@ -153,7 +150,7 @@ nav { display: none; }
 
 .introText{
     font-size: var(--fs-h3);
-    max-width: 30vw;
+    max-width: 50vw;
     margin-top: 0;
     border-top: 0;
     padding-top: 0;
@@ -310,4 +307,10 @@ a:active { text-decoration: none; }
     }
 
 
+}
+
+@media(max-width: 450px){
+    .introText{
+        width: 90vw;
+    }
 }
