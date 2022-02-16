@@ -6,8 +6,8 @@
 }
 
 :root{
-    --fs-h1: 2vw;
-    --fs-h2: 1.5vw;
+    --fs-h1: 30px;
+    --fs-h2: 15px;
 
     --ff-primary: 'Outfit', sans-serif;
     --fw-reg: 300;
@@ -17,8 +17,8 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
+        --fs-h1: 2.5vw;
+        --fs-h2: 1.5vw;
     }
 }
 

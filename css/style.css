@@ -34,12 +34,19 @@ a, a:visited {
     --optionsTextShadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 801px) {
     :root {
         --fs-h1: 35px;
         --fs-h2: 20px;
         --fs-h3: 1.5rem;
         --fs-body: 15px;
+    }
+}
+
+@media (max-width: 800px){
+    .toggle {
+        position: relative;
+        bottom: -7vh;
     }
 }
 
