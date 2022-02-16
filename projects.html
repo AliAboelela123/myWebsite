@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ali Portfolio Website</title>
+        
+        <!-- Update these with your own fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@311&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/project.css">
+    
+        <script defer src = "project.js"></script>
+    </head>
+
+    <body class = "light" onload= "setTheme()">
+
+        <div class = scrollContainer>
+
+            <section>
+
+                <div class = "shift">
+                    <ul>
+                        <li><a href="index.html" id = "homeLink">Home</a></li>
+                        <li><a href="projects.html" id = "projectLink">Projects</a></li>
+                        <li><a href="aboutme.html" id = "aboutLink">About</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class = "flexyBoxy">
+                    <h3 id = projectIntro>Projects</h3>
+
+                    <p id = projectIntroText>Writing useful programs is the ideal way to test your skills and learn in the process. Naturally, as a computer engineering student I took many C/C++ theory courses but it wasn't until I did projects that I grew confident in my skills. This is especially true for languages such as Python and JavaScript for which I had no "formal education". Below I discuss some of the projects I've completed and the skills they've taught me.</p>
+                </div>
+                
+                <div id = "toggle" class = "toggle">
+
+                    <div id = "sun" class="sun">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 207.628 207.628" style="enable-background:new 0 0 207.628 207.628;" xml:space="preserve">
+                            <circle cx="103.814" cy="103.814" r="45.868"/>
+                            <path d="M103.814,157.183c-29.427,0-53.368-23.941-53.368-53.368s23.941-53.368,53.368-53.368s53.368,23.941,53.368,53.368
+                                S133.241,157.183,103.814,157.183z M103.814,65.446c-21.156,0-38.368,17.212-38.368,38.368s17.212,38.368,38.368,38.368
+                                s38.368-17.212,38.368-38.368S124.97,65.446,103.814,65.446z"/>
+                            <path d="M103.814,39.385c-4.142,0-7.5-3.358-7.5-7.5V7.5c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385
+                                C111.314,36.027,107.956,39.385,103.814,39.385z"/>
+                            <path d="M103.814,207.628c-4.142,0-7.5-3.358-7.5-7.5v-24.385c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385
+                                C111.314,204.271,107.956,207.628,103.814,207.628z"/>
+                            <path d="M200.128,111.314h-24.385c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5
+                                S204.271,111.314,200.128,111.314z"/>
+                            <path d="M31.885,111.314H7.5c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5
+                                S36.027,111.314,31.885,111.314z"/>
+                            <path d="M154.676,60.452c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.242
+                                c2.929-2.929,7.678-2.93,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.242C158.515,59.72,156.595,60.452,154.676,60.452z"
+                                />
+                            <path d="M35.709,179.419c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.243
+                                c2.929-2.929,7.678-2.929,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.243C39.548,178.687,37.629,179.419,35.709,179.419z
+                                "/>
+                            <path d="M171.918,179.419c-1.919,0-3.839-0.732-5.303-2.197l-17.243-17.243c-2.929-2.929-2.929-7.678,0-10.606
+                                c2.929-2.929,7.678-2.929,10.606,0l17.243,17.243c2.929,2.929,2.929,7.678,0,10.606
+                                C175.757,178.687,173.838,179.419,171.918,179.419z"/>
+                            <path d="M52.952,60.452c-1.919,0-3.839-0.732-5.303-2.197L30.406,41.013c-2.929-2.929-2.929-7.677,0-10.606
+                                c2.929-2.929,7.678-2.93,10.606,0l17.243,17.242c2.929,2.929,2.929,7.677,0,10.606C56.791,59.72,54.872,60.452,52.952,60.452z"/>
+                        </svg>
+                      </div>
+
+                      <div id = "moon" class="moon">
+                        <svg width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet"><path d="M99.32 28.84L93.51 9.5l-1.98-2.66s-.15-.18-.17-.24c-.06-.25-.13-.66.11-.97c.18-.23.49-.29.85-.26c.14.01.48.14 1.02.44c5.31 3 28.21 21.75 30.14 52.02c1.09 17.1-5.15 35.4-18.27 48.16c-12.46 12.11-31.28 19.65-51.98 16.7c-30.94-4.41-44.22-23.21-47.69-29.42c-.61-1.1-.91-1.8-.97-1.97c-.82-2.15-.6-3.24.17-3.49c.2-.06.65.02.9.3c1 1.12 2.82 1.85 2.82 1.85l12.88 10.43l63.89 4.84l22.65-49.38l-8.56-27.01z" fill="#ffb803"></path><path d="M73.65 87.67c15.97-9.9 23.77-26.72 24.39-42.28c.9-22.79-6.68-38.8-6.68-38.8s14.01 11.5 21.68 28.08s9 43.87-7.78 63.4c-18.45 21.45-43.18 22.72-58.73 18.7c-32.27-8.35-41.09-28.83-41.09-28.83s17.78 9.95 37.77 8.9c14.88-.78 22.54-4.27 30.44-9.17z" fill="#ffca29"></path></svg>
+                      </div>
+                </div>
+                
+            </section>
+
+            <section>
+                <div class = "gridContainer">
+                    <h3 class = "grid-title">NASA Deep Space Food Challenge: PeaPod</h3>
+                    <p class = "grid-text">PeaPod was founded by Jayden Lefebvre, another ECE student at UofT. It’s purpose is to create an environment where plants can be grown autonomously and remotely in ideal conditions. A secondary purpose was to use the data it generated to research different ML models in an attempt to determine the aforementioned “ideal conditions”. This project has many many contributors; My role was to send instructions to the micro-controller (arduino nano). Interestingly enough this was done using a JavaScript library called Johnny-Five since the main app was already written in JavaScript.</p>
+                    <iframe class = "grid-img" alt = "PeaPod Video Available at: https://www.youtube.com/watch?v=2zWv9JC5G3w" src="https://www.youtube.com/embed/2zWv9JC5G3w"></iframe>
+                </div>
+            </section>
+    
+            <section> <!--2 rows, 3 columns. 1x1 Basic flex box containing title and text. 2x1 Same flex box. columns 2 and 3 dedicated to the GIS-->
+                
+                <h1 id = "title2">C/C++ Projects</h1>
+
+                <div class = "Cgrid">
+
+                    <div id = "textApp">
+                        <h3>Text Conferencing App</h3>
+                        <p>This is a simple text conferencing app designed to run on linux terminals. Users connect to a server by passing an IP address and a port #. Once connected they can send messages and files to other connected users or create private group chats. This project was intimidating but taught me many new things. I had to learn how to read files and safely work with its data in memory. More importantly, it taught me the basics of networking in C with UDP and TCP sockets.</p>
+                    </div>
+
+                    <div id = "Orthello">
+                        <h3>Orthello</h3>
+                        <p>This was the first game I ever built. The game Orthello implemented in the terminal with C. Users played against a simple AI; you input your move and then the state of the board is printed to the terminal. The primary difficulty in implementing this wasn't the game logic or the flow of control but in coding the bot. The bot worked by ranking valid moves by points. Higher points were assigned to moves which resulted in a more advantageous position, such as acquiring corners.</p>
+                    </div>
+
+                    <div id = "GIS">
+                        <h3>GIS</h3>
+                        <p>This project was a collaborative effort from my 2 partners and I. There were 3 main components to building our GIS. We used the OpenStreetMap API to collect geographic inforamtion which was primarily organized as a massive graph of intersections (nodes) and streets (edges). The GTK library was used to render graphics, and finally features such as pathfinding were implemented using Djkstra's algorithm. This project was significantly larger in scope than anything else I had ever done (obviously with exception to PeaPod). As a result, there was significant planning prior to writing any code. Decisions ranged from how should the code be organized to make collaboration effective to what architecture should we use to deliver top performance. The GIS was tested on many cities such as Tehran, Cairo, New Delhi, Tokyo, NYC, and more to measure usability and
+                            responsiveness using metrics researched and used by Google Maps. </p>
+                        <img id = "GISImage" src = "img/GIS.png">
+                    </div>
+
+                </div>
+            </section>
+    
+            <section>
+
+                <h1 id = "title2">Verilog/ARM Projects</h1>
+                <div class = "med-grid">
+                    
+                    <div class = "medItem">
+                        <h3 class = "medTitle">Processor</h3>
+                        <p class = "medText">A simple processor using the De-1-Soc board's hardware. The image below shows the processor's architecture. It recognizes a small amount of instructions then controls flow using a FSM. The processor was debugged and tested using modelsim.</p>
+                        <img class = "medImg" src = "img/verilog.png">
+                    </div>
+
+                    <div class = "medItem">
+                        <h3 class = "medTitle">Mastermind</h3>
+                        <p class = "medText">This project was also built on the De-1-Soc board. It was particularly fun to code since specific areas in memory were significant. The address of the pixel buffer for the VGA board, keyboard, etc were all known and constant. This meant I could read and write directly to memory to process I/O. Users input was taken through the board’s keys and the game was displayed on the board’s VGA display by writing to the aformentioned pixel buffer. The approach to graphics was very brute force, hex colors were written to memory for each pixel; this made pixel art very conveniant.</p>
+                            
+                        <img class = "medImg" src = "img/mastermind.jpg">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        
+
+    </body>
+</html>

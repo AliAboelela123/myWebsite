@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+:root{
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --ff-primary: 'Outfit', sans-serif;
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.3rem;
+    }
+}
+
+body {
+    background: #ACB992;
+    color: #fffafa;
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer {
+    position: relative;
+    top: -5vh;
+    max-width: 50vw;
+    display: grid;
+    grid-template-columns: 2fr 1.25fr;
+    grid-column-gap: 1em;
+}
+
+#me{
+    width: auto;
+    height: auto;
+    max-width: 25vw;
+    max-height: 35vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+
+p{
+    grid-column: 1;
+    grid-column-end: 2;
+    max-width: 25vw;
+    font-size: var(--fs-body);
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}

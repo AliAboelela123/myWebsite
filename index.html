@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ali Portfolio Website</title>
+        
+        <!-- Update these with your own fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@311&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        
+        
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src = "index.js"></script>
+
+    </head>
+    <body class = "light" onload= "setTheme()">
+        
+        <div class = "scrollContainer">
+            <div class = "shift">
+                <ul>
+                    <li><a href="index.html" id = "homeLink">Home</a></li>
+                    <li><a href="projects.html" id = "projectLink">Projects</a></li>
+                    <li><a href="aboutme.html" id = "aboutLink">About</a></li>
+                    
+                </ul>
+            </div>
+
+            <!-- Introduction -->
+            <section>
+                
+            
+                <div class="intro" id="home">
+                    <h1 class="mainTitle rainbow">
+                        Ali Aboelela
+                    </h1>
+                    <p class = introText>Hello friends, family, and employers. I made this website to show off a few of the projects I've worked on in my time at UofT. I also talk a little about myself and the hobbies I'm currently pursuing. Hopefully you learn something new about me!</p>
+                    <img src="img/mainPic.jpg" alt="A picture of Ali smiling" class="intro__img">
+
+                    <svg class = "svg" viewBox="0 0 200 100" height="30%" width="20%" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:vectornator="http://vectornator.io" version="1.1" >
+                        <metadata>
+                        <vectornator:setting key="WDSnapToEdges" value="false"/>
+                        <vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+                        <vectornator:setting value="true" key="WDRulersVisible"/>
+                        <vectornator:setting key="WDSnapToGrid" value="false"/>
+                        <vectornator:setting value="false" key="WDCMYKEnabledKey"/>
+                        <vectornator:setting value="false" key="WDIsolateActiveLayer"/>
+                        <vectornator:setting key="WDUnits" value="Pixels"/>
+                        <vectornator:setting key="WDGuidesVisible" value="true"/>
+                        <vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+                        <vectornator:setting key="VNSnapToGuides" value="true"/>
+                        <vectornator:setting value="false" key="WDDynamicGuides"/>
+                        <vectornator:setting key="WDOutlineMode" value="false"/>
+                        <vectornator:setting key="UndoHistoryDisabled" value="true"/>
+                        <vectornator:setting value="false" key="WDSnapToPoints"/>
+                        <vectornator:setting value="true" key="VNDimensionsVisible"/>
+                        </metadata>
+                        <defs/>
+                        <g id="Layer 1" vectornator:layerName="Layer 1">
+                        <path id = "signatureA"  stroke="#000000" stroke-linecap="round" opacity="1" fill="none" stroke-linejoin="round" stroke-width="10" d="M47.0618+20.1899C45.8801+17.8264+44.3195+22.3583+43.9421+23.026C41.2879+27.7219+38.6545+32.354+36.2847+37.2064C31.0796+47.8644+24.752+59.9659+24.3731+72.0902C24.2839+74.9467+24.0937+79.8619+27.7764+80.5985C33.2894+81.7011+38.9189+74.5915+41.6732+70.9558C46.5688+64.4936+48.8642+57.2632+51.3159+49.6852C53.291+43.5804+55.7623+37.7605+57.2717+31.5342C57.8375+29.2003+61.3234+18.0122+57.5553+17.0702C53.131+15.9641+49.3003+23.7686+48.1962+26.7129C47.4072+28.8169+46.8778+31.0217+46.4946+33.2359C46.0245+35.9517+45.8334+38.7109+45.6438+41.4605C45.455+44.1972+45.4617+46.9439+45.3602+49.6852C45.2726+52.0488+45.1315+54.4107+45.0765+56.7754C44.965+61.5719+45.1568+74.4772+50.7487+76.628C55.6435+78.5106+60.9692+68.2612+62.6603+65C67.073+56.4897+69.356+46.489+71.4521+37.2064C71.8047+35.6448+74.0826+29.7831+73.4374+27.8473C73.1553+27.0013+71.7036+28.5519+71.1685+29.2654C70.4289+30.2515+69.8043+31.3204+69.1832+32.3851C67.5172+35.2412+66.1541+37.9606+65.2127+41.1769C63.2606+47.8468+58.9379+67.2335+64.6455+72.941C72.6012+80.8967+80.3737+62.5664+81.9456+57.6262C82.2724+56.5991+82.4719+55.5344+82.7964+54.5065C83.4291+52.5029+83.8171+52.2391+84.2145+50.2524C84.4612+49.0186+85.7222+41.4605+84.4981+41.4605C82.2707+41.4605+80.7116+47.4315+80.244+48.8343C77.9417+55.7413+75.8797+65.0387+77.4079+72.3738C78.7554+78.8418+85.0916+76.8677+87.6178+72.6574"/>
+                        </g>
+                    </svg>
+                <div>
+                
+                <div id = "toggle" class = "toggle">
+
+                    <div id = "sun" class="sun">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 207.628 207.628" style="enable-background:new 0 0 207.628 207.628;" xml:space="preserve">
+                            <circle cx="103.814" cy="103.814" r="45.868"/>
+                            <path d="M103.814,157.183c-29.427,0-53.368-23.941-53.368-53.368s23.941-53.368,53.368-53.368s53.368,23.941,53.368,53.368
+                                S133.241,157.183,103.814,157.183z M103.814,65.446c-21.156,0-38.368,17.212-38.368,38.368s17.212,38.368,38.368,38.368
+                                s38.368-17.212,38.368-38.368S124.97,65.446,103.814,65.446z"/>
+                            <path d="M103.814,39.385c-4.142,0-7.5-3.358-7.5-7.5V7.5c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385
+                                C111.314,36.027,107.956,39.385,103.814,39.385z"/>
+                            <path d="M103.814,207.628c-4.142,0-7.5-3.358-7.5-7.5v-24.385c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385
+                                C111.314,204.271,107.956,207.628,103.814,207.628z"/>
+                            <path d="M200.128,111.314h-24.385c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5
+                                S204.271,111.314,200.128,111.314z"/>
+                            <path d="M31.885,111.314H7.5c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5
+                                S36.027,111.314,31.885,111.314z"/>
+                            <path d="M154.676,60.452c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.242
+                                c2.929-2.929,7.678-2.93,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.242C158.515,59.72,156.595,60.452,154.676,60.452z"
+                                />
+                            <path d="M35.709,179.419c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.243
+                                c2.929-2.929,7.678-2.929,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.243C39.548,178.687,37.629,179.419,35.709,179.419z
+                                "/>
+                            <path d="M171.918,179.419c-1.919,0-3.839-0.732-5.303-2.197l-17.243-17.243c-2.929-2.929-2.929-7.678,0-10.606
+                                c2.929-2.929,7.678-2.929,10.606,0l17.243,17.243c2.929,2.929,2.929,7.678,0,10.606
+                                C175.757,178.687,173.838,179.419,171.918,179.419z"/>
+                            <path d="M52.952,60.452c-1.919,0-3.839-0.732-5.303-2.197L30.406,41.013c-2.929-2.929-2.929-7.677,0-10.606
+                                c2.929-2.929,7.678-2.93,10.606,0l17.243,17.242c2.929,2.929,2.929,7.677,0,10.606C56.791,59.72,54.872,60.452,52.952,60.452z"/>
+                        </svg>
+                      </div>
+
+                      <div id = "moon" class="moon">
+                        <svg width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet"><path d="M99.32 28.84L93.51 9.5l-1.98-2.66s-.15-.18-.17-.24c-.06-.25-.13-.66.11-.97c.18-.23.49-.29.85-.26c.14.01.48.14 1.02.44c5.31 3 28.21 21.75 30.14 52.02c1.09 17.1-5.15 35.4-18.27 48.16c-12.46 12.11-31.28 19.65-51.98 16.7c-30.94-4.41-44.22-23.21-47.69-29.42c-.61-1.1-.91-1.8-.97-1.97c-.82-2.15-.6-3.24.17-3.49c.2-.06.65.02.9.3c1 1.12 2.82 1.85 2.82 1.85l12.88 10.43l63.89 4.84l22.65-49.38l-8.56-27.01z" fill="#ffb803"></path><path d="M73.65 87.67c15.97-9.9 23.77-26.72 24.39-42.28c.9-22.79-6.68-38.8-6.68-38.8s14.01 11.5 21.68 28.08s9 43.87-7.78 63.4c-18.45 21.45-43.18 22.72-58.73 18.7c-32.27-8.35-41.09-28.83-41.09-28.83s17.78 9.95 37.77 8.9c14.88-.78 22.54-4.27 30.44-9.17z" fill="#ffca29"></path></svg>
+                      </div>
+                </div>
+
+
+            </section>
+            
+                
+            <!-- Options -->
+            <section class="options" >
+
+                <div class = "optionsContainer">
+
+                    <a href = "projects.html">
+                        <div id = "projects" class="content">
+                            <img class = "contentImg" src = "img/projects.png">
+                            <h3 class = "contentText">Projects</h3>
+                        </div>
+                    </a>
+                    
+                    <a href = "aboutme.html">
+                        <div class="content">
+                            <img class = "contentImg" src = "img/aboutMe.JPG">
+                            <h3 class = "contentText">About Me</h3>
+                        </div>
+                    </a>
+
+                    <a class="content" href = "AliCV.pdf">
+                        <img class = "contentImg" src = "img/CV.png">
+                        <h3 id = "cv" class = "contentText">CV</h3>
+                    </a>
+
+                </div>
+                
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/ali-aboelela-32955a178/"><i class='fa fa-linkedin'></i></a></li> <!--linkedin-->
+                    <li class="social-list__item"><a class="social-list__link" href="https://github.com/AliAboelela123"><i class='fa fa-github'></i></a></li> <!--github-->
+                    <li class="social-list__item"><a class="social-list__link" href="mailto:ali.k.aboelela@gmail.com"><i class='fa fa-envelope'></i></a></li> <!--email-->
+                </ul>
+                
+            </section>
+        </div>
+        
+        
+
+        
+        
+        <!-- Footer -->
+        
+        
+    </body>
+</html>
+
+
+
+
+
