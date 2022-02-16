@@ -16,8 +16,8 @@ a, a:visited {
     --fw-bold: 900;
     
     
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
+    --fs-h1: 2rem;
+    --fs-h2: 10px;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
 }
@@ -141,7 +141,8 @@ nav { display: none; }
     
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        max-width: max(10vw, 150px);
+        height: auto;
 
     }    
     
@@ -164,7 +165,7 @@ nav { display: none; }
 .svg {
     position: absolute;
     left: 75%;
-    bottom: -8%;
+    bottom: -14%;
 }
 
 #signatureA{
@@ -220,7 +221,7 @@ nav { display: none; }
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4rem;
+    font-size: 5vw;
     text-shadow: var(--optionsTextShadow);
 }
 
@@ -228,6 +229,8 @@ nav { display: none; }
     position: absolute;
     left: 20vw;
     bottom: -30vh;
+    width: 75px;
+    height: auto;
 }
 
 #moon path{
@@ -289,3 +292,25 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
+
+
+@media(max-width: 599px){
+    .body {
+
+    }
+    .intro__img{
+        width: 0;
+        height: 0;
+    }
+
+    .svg{
+        width: 0;
+        height: 0;
+    }
+
+    #toggle {
+        width: 0;
+        height: 0;
+    }
+
+}

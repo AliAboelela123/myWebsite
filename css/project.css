@@ -6,8 +6,8 @@
 }
 
 :root{
-    --fs-h1: 1.75rem;
-    --fs-h2: 1rem;
+    --fs-h1: 2vw;
+    --fs-h2: 1.5vw;
     --fs-body: 1rem;
 
     --ff-primary: 'Outfit', sans-serif;
@@ -16,12 +16,25 @@
 
 }
 
+@media (max-width: 800px){
+    #vid{
+        width: 0;
+        height: 0;
+    }
+}
+
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 3rem;
-        --fs-h2: 1.5rem;
+        --fs-h1: 35px;
+        --fs-h2: 20px;
         --fs-body: 1rem;
     }
+
+    #vid {
+        width: 20vw;
+        height: auto;
+    }
+
 }
 
 .light{
@@ -48,7 +61,7 @@ body {
 
 section {
     margin-top: 1vh;
-    margin-bottom: 3vh;
+    margin-bottom: 10vh;
     padding: 5vw;
     display: flex;
     flex-direction: column;
@@ -77,7 +90,7 @@ body, html {
 }
 
 .grid-title{
-    font-size: 3em;
+    font-size: var(--fs-h1);
     margin: 0;
     padding: 0;
     border: 0;
@@ -92,15 +105,13 @@ body, html {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end:3;
-    min-width: 30vw;
-    min-height: 40vh;
 }
 
 .grid-text{
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 2em;
+    font-size: var(--fs-h2);
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -113,9 +124,12 @@ body, html {
 }
 
 .Cgrid{
+    position: relative;
+    bottom: -5vh;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    max-height: 90vh;
 
 }
 
@@ -141,6 +155,9 @@ body, html {
 #GISImage {
     position: absolute;
     max-height: 25vh;
+    max-width: 25vw;
+    height: auto;
+    width: auto;
 }
 
 /* Section 3*/
@@ -148,6 +165,13 @@ body, html {
 .med-grid{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.medImg {
+    max-height: 30vh;
+    max-width: 30vw;
+    height: auto;
+    width: auto;
 }
 
 .medItem {
@@ -208,7 +232,7 @@ li {
 li a {
     display: block;
     padding: 8px;
-    font-size: 1.75rem;
+    font-size: var(--fs-h2);
 }
 
 #homeLink:hover{
@@ -250,4 +274,9 @@ a:hover {
 
 a {
     color: inherit;
+}
+
+.C-title{
+    padding: 0;
+    margin: 0;
 }
