@@ -43,13 +43,6 @@ a, a:visited {
     }
 }
 
-@media (max-width: 800px){
-    .toggle {
-        position: relative;
-        bottom: -7vh;
-    }
-}
-
 /* General styles */
 
 .rainbow {
@@ -132,7 +125,7 @@ nav { display: none; }
     position: relative;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .intro {
         display: grid;
         width: min-content;
@@ -233,7 +226,7 @@ nav { display: none; }
 .toggle {
     position: absolute;
     left: 20vw;
-    bottom: -30vh;
+    bottom: -35vh;
     width: 75px;
     height: auto;
 }
@@ -299,10 +292,8 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 
-@media(max-width: 599px){
-    .body {
+@media(max-width: 800px){
 
-    }
     .intro__img{
         width: 0;
         height: 0;
@@ -317,5 +308,6 @@ a:active { text-decoration: none; }
         width: 0;
         height: 0;
     }
+
 
 }
