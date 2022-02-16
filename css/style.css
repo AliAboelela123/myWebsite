@@ -16,10 +16,10 @@ a, a:visited {
     --fw-bold: 900;
     
     
-    --fs-h1: 2rem;
-    --fs-h2: 10px;
+    --fs-h1: 30px;
+    --fs-h2: 15px;
     --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --fs-body: 10px;
 }
 
 .light{
@@ -36,10 +36,10 @@ a, a:visited {
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
+        --fs-h1: 35px;
+        --fs-h2: 20px;
         --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-body: 15px;
     }
 }
 
@@ -96,6 +96,10 @@ section {
 img {
     display: block;
     max-width: 100%;
+}
+
+.intro {
+    max-height: 90vh;
 }
 
 /* Typography */
